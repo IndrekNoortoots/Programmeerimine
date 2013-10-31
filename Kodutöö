@@ -4,4 +4,4 @@ print nimi.upper();
 print nimi.capitalize();
 print nimi.lower();
 print nimi.swapcase();
-print nimi.strip('saM')
+print nimi.strip('Man')
