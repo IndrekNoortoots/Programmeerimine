@@ -1,0 +1,22 @@
+Pealkiri1 = raw_input('Sisesta pealkiri 1 :')
+Pealkiri2 = raw_input('Sisesta pealkiri 2 :')
+Tekst1 = raw_input('Sisesta esimene tekst :')
+P2is = raw_input('Sisesta P2is :')
+Tekst2 = raw_input('Sisesta Teine tekst :')
+Jalus = raw_input('Sisesta Jalus :')
+Tyhi = ' '
+Joon = '-'
+
+print P2is.center(60, '-')
+print Tyhi.center(60, ' ')
+print Pealkiri1.center(60, ' ')
+print Tyhi.center(60, ' ')
+print Tekst1.center(50, ' ')
+print Joon.center(60, '-')        
+
+print Tyhi.center(60, ' ')
+print Pealkiri2.center(60, ' ')
+print Tyhi.center(60, ' ')
+print Tekst2.center(50, ' ')
+print Tyhi.center(60, ' ')
+print Jalus.center(60, '-')
