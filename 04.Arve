@@ -1,0 +1,30 @@
+pealkiri = "{:^80}"
+print pealkiri.format("ARVE NR 1")
+print ""
+aaa1 = "{:<25}{:<30}{:>20}"
+print aaa1.format("Arve v2ljastaja", "Arve saaja", "Kuup2ev: 16.10.2013")
+
+aaa2 = "{:<25}{:<26}{:>20}"
+print aaa2.format("Indrek N", "SK R2pina", "Makset2htaeg: 31.12.2013")
+
+aaa3 = "{:<10}{:>25}{:>34}"
+print aaa3.format("Reg. Nr. 5335636", "Reg. Nr. 3355359", "Viitenumber 34535321")
+
+print "==========================================================================="
+
+print ""
+
+aaa4 = "{:<20}{:>35}{:>10}{:>10}"
+print aaa4.format("Kauba nimetus", "Kogus", "Hind", "Summa")
+print aaa4.format("S2rk", "5 tk", "9.99", "49,95")
+print aaa4.format("Jalatsid", "3.00 tk", "20", "70")
+print aaa4.format("Pall", "3 tk", "10", "30")
+
+print "==========================================================================="
+
+print ""
+
+aaa5 = "{:<29}{:<26}{:>20}"
+print aaa5.format("OU M-UNITED", "R2PINA 1", "SWEDBANK 245535535")
+aaa6 = "{:<29}{:<28}{:>10}"
+print aaa6.format("KMKR EE34222424", "Tel. +372 5234765", "munited@munited.ee")
