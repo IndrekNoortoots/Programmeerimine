@@ -1,0 +1,16 @@
+#!/usr/bin/python
+# coding: latin-1
+import os
+clear = os.system('clear');
+
+
+tekst = raw_input('Sisesta siia oma tekst :')
+
+if tekst.islower() == True and tekst.isalpha() != True:
+        print 'Tekst sisaldab numbreid ja väikseid tähti'
+
+elif tekst.islower() & tekst.isalpha() == True:
+        print 'Tekst sisaldab väikeseid tähti, numbreid pole'
+
+elif tekst.isalpha != True & tekst.isdigit() == True:
+        print 'Tekst sisaldab numbreid, Tähti mitte'
