@@ -1,0 +1,8 @@
+import os
+import random
+clear = os.system ('clear')
+arv = int(raw_input('Algus:'))
+arvud = int(raw_input('L6pp:'))
+while arv <= arvud:
+	print random.randint(arv,arvud)
+	arv = arv + 1
