@@ -1,0 +1,5 @@
+import random
+a = 1;
+while a <= 10:
+	print "#" * random.randint(10,50)
+	a = a + 1
